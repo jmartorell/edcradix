@@ -1,7 +1,7 @@
 apiVersion: radix.equinor.com/v1
 kind: RadixApplication
 metadata:
-  name: edcradix
+  name: juanquote
 spec:
   environments:
     - name: development

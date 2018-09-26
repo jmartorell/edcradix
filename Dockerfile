@@ -1,7 +1,7 @@
-#
+####
 # -- Base node image with app
-#
-FROM node:10-alpine AS base
+####
+FROM node:carbon-alpine AS base
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY package.json package-lock.json ./
